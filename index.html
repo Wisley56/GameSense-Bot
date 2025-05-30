@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameSense Bot - Descubra Seu Próximo Jogo Favorito!</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body class="bg-slate-900 text-slate-200">
+
+    <button onclick="scrollToTop()" id="scrollTopBtn" title="Voltar ao topo">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up"><path d="m5 12 7-7 7 7"/><path d="M12 19V5"/></svg>
+    </button>
+
+    <header class="bg-slate-900/80 backdrop-blur-md sticky top-0 z-50 shadow-lg">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="text-3xl font-bold text-blue-400 text-shadow-blue">
+                GameSense<span class="text-blue-500">Bot</span>
+                <img src="/imagens/GameSense_Bot-removebg.png" alt="Logo do GameSense Bot" class="inline-block h-8 ml-2">
+            </a>
+            <nav class="space-x-6">
+                <a href="#problema" class="hover:text-blue-400 transition duration-300">O Problema</a>
+                <a href="#solucao" class="hover:text-blue-400 transition duration-300">A Solução</a>
+                <a href="#como-funciona" class="hover:text-blue-400 transition duration-300">Como Funciona</a>
+                <a href="#cta" class="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-2 rounded-lg transition duration-300 shadow-md hover:shadow-lg">Experimente Agora!</a>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero" class="hero-gradient py-20 md:py-32 text-white">
+        <div class="container mx-auto px-6 text-center">
+            <h1 class="text-4xl md:text-6xl font-bold mb-6 leading-tight text-shadow-blue">
+                Sua Próxima Aventura Gamer, <br class="hidden md:block" /> <span class="text-blue-300">Descoberta de Forma Inteligente.</span>
+            </h1>
+            <p class="text-lg md:text-xl mb-10 max-w-3xl mx-auto text-slate-300">
+                Cansado de procurar? O GameSense Bot usa inteligência artificial para recomendar jogos que você realmente vai amar, baseado no seu perfil único!
+            </p>
+            <a href="https://typebot.co/game-sense-bot-ia" target="_blank" class="bg-white text-blue-700 font-bold text-lg px-10 py-4 rounded-lg hover:bg-blue-100 transition duration-300 shadow-xl hover:shadow-2xl transform hover:scale-105 glow-effect">
+                🎮 Experimente o GameSense Bot Agora!
+            </a>
+            <p class="mt-6 text-sm text-slate-400">Gratuito e fácil de usar!</p>
+        </div>
+    </section>
+
+    <section id="problema" class="py-16 md:py-24 bg-slate-800">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-4 text-blue-400 text-shadow-blue">A Selva de Jogos: Difícil Encontrar a Próxima Joia?</h2>
+            <p class="text-center text-slate-400 mb-12 max-w-2xl mx-auto">
+                Com milhares de lançamentos todos os anos, encontrar o jogo perfeito pode ser uma missão. Recomendações genéricas não ajudam e você perde tempo que poderia estar jogando.
+            </p>
+            <div class="grid md:grid-cols-3 gap-8 text-center">
+                <div class="card-gradient p-8 rounded-xl shadow-2xl transform hover:scale-105 transition-transform duration-300">
+                    <div class="text-blue-500 mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mx-auto lucide lucide-library"><path d="m16 6 4 14"/><path d="M12 6v14"/><path d="M8 8v12"/><path d="M4 4v16"/></svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2 text-slate-100">Excesso de Opções</h3>
+                    <p class="text-slate-400">Um mar de jogos, tornando a escolha esmagadora.</p>
+                </div>
+                <div class="card-gradient p-8 rounded-xl shadow-2xl transform hover:scale-105 transition-transform duration-300">
+                    <div class="text-blue-500 mb-4">
+                         <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mx-auto lucide lucide-user-x"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><line x1="17" x2="22" y1="8" y2="13"/><line x1="22" x2="17" y1="8" y2="13"/></svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2 text-slate-100">Recomendações Genéricas</h3>
+                    <p class="text-slate-400">Plataformas que não entendem seu gosto pessoal.</p>
+                </div>
+                <div class="card-gradient p-8 rounded-xl shadow-2xl transform hover:scale-105 transition-transform duration-300">
+                    <div class="text-blue-500 mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mx-auto lucide lucide-clock-snooze"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/><path d="m19.5 9-3 3"/></svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2 text-slate-100">Tempo Desperdiçado</h3>
+                    <p class="text-slate-400">Horas pesquisando, menos tempo se divertindo.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="solucao" class="py-16 md:py-24 section-gradient text-white">
+        <div class="container mx-auto px-6 flex flex-col md:flex-row items-center">
+            <div class="md:w-1/2 mb-10 md:mb-0 md:pr-12">
+                <h2 class="text-3xl md:text-4xl font-bold mb-6 text-blue-300 text-shadow-blue">Apresentamos o GameSense Bot: <br/>Seu Guia Pessoal no Universo Gamer!</h2>
+                <p class="text-lg mb-6 text-slate-300">
+                    O GameSense Bot é um chatbot inovador que conversa com você para entender suas preferências e, usando inteligência artificial, sugere jogos que têm tudo a ver com seu estilo.
+                </p>
+                <p class="text-lg text-slate-300">
+                    Diga adeus às buscas frustrantes e olá para uma curadoria de jogos feita sob medida para você!
+                </p>
+                <a href="https://typebot.co/game-sense-bot-ia" target="_blank" class="mt-8 inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold px-8 py-3 rounded-lg transition duration-300 shadow-md hover:shadow-lg">
+                    Descubra Jogos Incríveis Agora!
+                </a>
+            </div>
+            <div class="md:w-1/2">
+                <img src="/imagens/interface_chatbot.png" alt="Interface do GameSense Bot" class="rounded-xl shadow-2xl w-full glow-effect">
+                </div>
+        </div>
+    </section>
+
+    <section id="como-funciona" class="py-16 md:py-24 bg-slate-800">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-blue-400 text-shadow-blue">Inteligência e Simplicidade na Palma da Sua Mão</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="card-gradient p-8 rounded-xl shadow-2xl text-center transform hover:scale-105 transition-transform duration-300">
+                    <div class="text-blue-500 mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-message-circle-code mx-auto"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/><path d="m10 10-2 2 2 2"/><path d="m14 10 2 2-2 2"/></svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2 text-slate-100">Plataforma Intuitiva</h3>
+                    <p class="text-slate-400">Construído com Typebot para uma experiência de chat fluida e amigável.</p>
+                </div>
+                <div class="card-gradient p-8 rounded-xl shadow-2xl text-center transform hover:scale-105 transition-transform duration-300">
+                     <div class="text-blue-500 mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-brain-circuit mx-auto"><path d="M12 5a3 3 0 1 0-5.993 1.003c.005-.002.01-.003.015-.003H12V5Z"/><path d="M12 5a3 3 0 1 0 5.993 1.003C17.995 6.002 17.99 6 17.985 6H12V5Z"/><path d="M15 13a3 3 0 1 0-5.993 1.003c.005-.002.01-.003.015-.003H15v0Z"/><path d="M12 12v-2"/><path d="M12 9V7c0-1.1.9-2 2-2h1"/><path d="M12 17v2c0 1.1.9 2 2 2h1"/><path d="M12 17v-2"/><path d="M12 14v-2"/><path d="M15 13H9"/><path d="M9 13a3.001 3.001 0 0 0-2.5 1.424"/><path d="M6.5 14.424A3 3 0 1 0 5 17H3a2 2 0 0 1-2-2v-2a2 2 0 0 1 2-2h.615"/><path d="M17.5 14.424A3 3 0 1 1 19 17h2a2 2 0 0 0 2-2v-2a2 2 0 0 0-2-2h-.615"/><path d="M9 7a3 3 0 1 0 5.993-1.003C14.995 5.998 14.99 6 14.985 6H9V7Z"/><path d="M15 7a3 3 0 1 0-5.993-1.003C9.005 5.998 9.01 6 9.015 6H15V7Z"/></svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2 text-slate-100">Motor IA Avançado</h3>
+                    <p class="text-slate-400">Integrado com a API do GROQ para recomendações rápidas e precisas.</p>
+                </div>
+                <div class="card-gradient p-8 rounded-xl shadow-2xl text-center transform hover:scale-105 transition-transform duration-300">
+                    <div class="text-blue-500 mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-user-check mx-auto"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><polyline points="16 11 18 13 22 9"/></svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2 text-slate-100">Perfil Dinâmico</h3>
+                    <p class="text-slate-400">Quanto mais você usa, mais inteligente ele fica sobre seus gostos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="beneficios" class="py-16 md:py-24 section-gradient text-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-blue-300 text-shadow-blue">Vantagens de Usar o GameSense Bot</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="flex items-start space-x-4 p-6 rounded-lg bg-slate-800/50 shadow-lg">
+                    <div class="text-blue-400 pt-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-target"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-semibold mb-1 text-slate-100">Hiper-Personalização</h3>
+                        <p class="text-slate-400 text-sm">Recomendações que realmente entendem seu DNA gamer.</p>
+                    </div>
+                </div>
+                 <div class="flex items-start space-x-4 p-6 rounded-lg bg-slate-800/50 shadow-lg">
+                    <div class="text-blue-400 pt-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-sparkles"><path d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z"/><path d="M5 3v4"/><path d="M19 17v4"/><path d="M3 5h4"/><path d="M17 19h4"/></svg>
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-semibold mb-1 text-slate-100">Descoberta Contínua</h3>
+                        <p class="text-slate-400 text-sm">Sempre atualizado com novidades relevantes para você.</p>
+                    </div>
+                </div>
+                <div class="flex items-start space-x-4 p-6 rounded-lg bg-slate-800/50 shadow-lg">
+                    <div class="text-blue-400 pt-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-mouse-pointer-2"><path d="m12 12 4 10 1.7-4.3L22 16Z"/><path d="m7.4 7.4 2.6-4.4L12 12l-4.6-2.6Z"/></svg>
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-semibold mb-1 text-slate-100">Interface Conversacional</h3>
+                        <p class="text-slate-400 text-sm">Simples, direto e divertido de usar.</p>
+                    </div>
+                </div>
+                <div class="flex items-start space-x-4 p-6 rounded-lg bg-slate-800/50 shadow-lg">
+                    <div class="text-blue-400 pt-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-clock"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-semibold mb-1 text-slate-100">Economia de Tempo</h3>
+                        <p class="text-slate-400 text-sm">Menos pesquisa, mais diversão garantida.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="cta" class="py-20 md:py-32 hero-gradient text-white">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-3xl md:text-5xl font-bold mb-6 text-shadow-blue">Pronto para Encontrar Seu Próximo Jogo Favorito?</h2>
+            <p class="text-lg md:text-xl mb-10 max-w-2xl mx-auto text-slate-300">
+                O GameSense Bot está esperando para te mostrar um universo de jogos feitos para você. A aventura começa com um clique!
+            </p>
+            <a href="https://typebot.co/game-sense-bot-ia" target="_blank" class="bg-white text-blue-700 font-bold text-lg px-10 py-4 rounded-lg hover:bg-blue-100 transition duration-300 shadow-xl hover:shadow-2xl transform hover:scale-105 glow-effect">
+                🚀 Quero Descobrir Jogos Agora!
+            </a>
+        </div>
+    </section>
+
+    <footer class="bg-slate-900 py-10 text-center">
+        <div class="container mx-auto px-6">
+            <p class="text-slate-400 text-sm">
+                &copy; <span id="currentYear"></span> GameSense Bot. Todos os direitos reservados.
+            </p>
+            <p class="text-slate-500 text-xs mt-2">
+                Uma ferramenta inteligente para gamers apaixonados.
+            </p>
+        </div>
+    </footer>
+
+    <script src="/js/script.js"></script>
+</body>
+</html>

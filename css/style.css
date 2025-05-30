@@ -1,0 +1,47 @@
+ body {
+     font-family: 'Inter', sans-serif;
+     scroll-behavior: smooth;
+ }
+
+ .hero-gradient {
+     background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 50%, #3b82f6 100%);
+ }
+
+ .section-gradient {
+     background: linear-gradient(180deg, #1e293b 0%, #0f172a 100%);
+ }
+
+ .card-gradient {
+     background: linear-gradient(145deg, #1e293b, #29374d);
+ }
+
+ .glow-effect {
+     box-shadow: 0 0 15px 5px rgba(59, 130, 246, 0.5);
+ }
+
+ .text-shadow-blue {
+     text-shadow: 0 2px 4px rgba(59, 130, 246, 0.3);
+ }
+
+ #scrollTopBtn {
+     position: fixed;
+     bottom: 20px;
+     right: 20px;
+     z-index: 99;
+     border: none;
+     outline: none;
+     background-color: #3b82f6;
+     color: white;
+     cursor: pointer;
+     padding: 12px 15px;
+     border-radius: 50%;
+     font-size: 18px;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+     transition: opacity 0.3s, visibility 0.3s;
+     opacity: 0;
+     visibility: hidden;
+ }
+
+ #scrollTopBtn:hover {
+     background-color: #2563eb;
+ }
