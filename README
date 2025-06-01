@@ -4,7 +4,7 @@
 
 Esta landing page foi desenvolvida para apresentar o bot e facilitar o seu acesso, com uma interface simples, moderna e responsiva.
 
-## 🧠 Sobre o projeto
+### 🧠 Sobre o projeto
 
 A cada ano, milhares de novos jogos são lançados no mercado. Isso torna a escolha do próximo jogo uma tarefa difícil para muitos jogadores. Pensando nisso, nasceu o **GameSense Bot**, um assistente virtual que entende seus gostos e te ajuda a encontrar os jogos certos para você.
 
@@ -20,12 +20,12 @@ A cada ano, milhares de novos jogos são lançados no mercado. Isso torna a esco
 
 👉 **[Clique aqui para acessar o GameSense Bot](https://typebot.co/game-sense-bot-ia)**
 
-## 🖼️ Capturas de Tela
+### 🖼️ Capturas de Tela
 
 ![Logo do Bot](./imagens/GameSense_Bot.png)  
 ![Exemplo de Interface](./imagens/interface_chatbot.png)
 
-## 🚀 Tecnologias utilizadas
+### 🚀 Tecnologias utilizadas
 
 - HTML, CSS, TailWindCSS  
 - Typebot (construção do fluxo do chatbot)  
