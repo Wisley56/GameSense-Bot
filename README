@@ -1,4 +1,4 @@
-# 🎮 GameSense Bot – Seu Guia Inteligente no Mundo dos Games
+### 🎮 GameSense Bot – Seu Guia Inteligente no Mundo dos Games
 
 **GameSense Bot** é um chatbot criado com foco em ajudar gamers a descobrirem novos jogos, receberem recomendações personalizadas e se manterem atualizados com as últimas novidades do universo gamer.
 
@@ -10,30 +10,29 @@ A cada ano, milhares de novos jogos são lançados no mercado. Isso torna a esco
 
 📌 **Principais recursos do chatbot:**
 
-* Coleta dos seus jogos favoritos e estilos preferidos
-* Recomendação de jogos semelhantes com base nos seus interesses
-* Notícias e lançamentos do mundo dos games
-* Interface interativa construída com [Typebot](https://www.typebot.io/)
-* Integração com [GROQ](https://groq.com/) para respostas rápidas com IA
+- Coleta dos seus jogos favoritos e estilos preferidos  
+- Recomendação de jogos semelhantes com base nos seus interesses  
+- Notícias e lançamentos do mundo dos games  
+- Interface interativa construída com [Typebot](https://www.typebot.io/)  
+- Integração com [GROQ](https://groq.com/) para respostas rápidas com IA  
 
 ## 🌐 Acesse agora
 
 👉 **[Clique aqui para acessar o GameSense Bot](https://typebot.co/game-sense-bot-ia)**
-*(Substitua pelo link da sua land page ou Typebot embed)*
 
 ## 🖼️ Capturas de Tela
 
-![Logo do Bot](./imagens/GameSense%20Bot.png)
+![Logo do Bot](./imagens/GameSense_Bot.png)  
 ![Exemplo de Interface](./imagens/interface_chatbot.png)
 
 ## 🚀 Tecnologias utilizadas
 
-* HTML, CSS, TailWindCSS
-* Typebot (construção do fluxo do chatbot)
-* GROQ API (inferência de IA)
-* \[Hosting: Vercel]
+- HTML, CSS, TailWindCSS  
+- Typebot (construção do fluxo do chatbot)  
+- GROQ API (inferência de IA)  
+- [Hosting: Vercel]
 
-### 📫 Contato
+## 📫 Contato
 
-Feito por **Wisley Victor**
+Feito por **Wisley Victor**  
 [🔗 LinkedIn](https://www.linkedin.com/in/wisley-victor-ferreira-santos-a2b642203/) | [🐙 GitHub](https://github.com/Wisley56)
